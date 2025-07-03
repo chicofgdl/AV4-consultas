@@ -88,12 +88,12 @@ Execute os arquivos da pasta /consultas e /plsql conforme interesse ou item da c
 | 12  | `FOR IN LOOP`                                                | ✅     |
 | 13  | `SELECT … INTO`                                              | ✅     |
 | 14  | `CURSOR` (`OPEN`, `FETCH`, `CLOSE`)                          | ✅     |
-| 15  | `EXCEPTION WHEN`                                             | ❌     |
-| 16  | Uso de parâmetros (`IN`, `OUT` ou `IN OUT`)                  | ❌     |
-| 17  | `CREATE OR REPLACE PACKAGE`                                  | ❌     |
-| 18  | `CREATE OR REPLACE PACKAGE BODY`                             | ❌     |
-| 19  | `CREATE OR REPLACE TRIGGER` (comando)                        | ❌     |
-| 20  | `CREATE OR REPLACE TRIGGER` (linha)                          | ❌     |
+| 15  | `EXCEPTION WHEN`                                             | ✅     |
+| 16  | Uso de parâmetros (`IN`, `OUT` ou `IN OUT`)                  | ✅     |
+| 17  | `CREATE OR REPLACE PACKAGE`                                  | ✅     |
+| 18  | `CREATE OR REPLACE PACKAGE BODY`                             | ✅     |
+| 19  | `CREATE OR REPLACE TRIGGER` (comando)                        | ✅     |
+| 20  | `CREATE OR REPLACE TRIGGER` (linha)                          | ✅     |
 
 
 ---
